@@ -1,0 +1,161 @@
+*{margin:0;
+    padding: 0;
+}
+ #navbar{
+    box-sizing: border-box;
+    text-align: center;
+    color:rgb(173, 166, 217);  
+
+}
+.nav-link{
+    color:rgb(173, 166, 217);  
+
+}
+
+
+#navbar nav{
+    background-color:rgb(68, 51, 127) !important;
+    color:rgb(173, 166, 217);
+    
+    height:70px;
+}
+#navbar .navbar-brand{
+    font-weight: 900;
+    font-size: 25px;
+    color:white;
+}
+#navbar nav.nav-link{
+    font-weight:700;
+    font-size:20px;
+    color:rgb(173, 166, 217);
+    
+}
+#Profile-section{
+    background-color: rgb(68, 51, 127);
+    color:rgb(173, 166, 217);
+    font-size: 20px;
+
+}
+/* #Profile-section{
+    position:absolute;
+    top:90px;
+    right: 140px;
+}  */
+
+#navbar{
+    background-color: rgb(173, 166, 217);
+    color:rgb(68, 51, 127) ;
+    
+
+}
+                                                                      
+#Skills{
+    background-color:rgb(173, 166, 217);
+    color: rgb(68, 51, 127) ;
+}
+#Education{
+    background-color:rgb(68, 51, 127) ;
+    text-align: center;
+    color:rgb(173, 166, 217);
+
+    
+}
+#bottom-section{
+    background-color:rgb(173, 166, 217);
+    color:rgb(68, 51, 127) ;
+    
+    
+}
+.card-body{
+    background-color: rgb(68, 51, 127) ;
+    text-align: center;
+    color:rgb(173, 166, 217);
+
+}
+#final{
+    background-color:rgb(68, 51, 127)  ; 
+}
+#Contact{
+    background-color:rgb(68, 51, 127)  ;
+    text-align: center;
+    color:rgb(173, 166, 217);
+}
+#Certificate{
+     background-color:rgb(173, 166, 217); 
+     color:rgb(68, 51, 127) ;
+
+     width:100%;
+}
+.row div{
+    padding: 0px;
+}
+
+#Profile-section div.row div:first-child{
+   line-height: 1.8;
+}
+.my-img{
+    position: relative;
+    top:90px;
+    left:110px;
+}
+
+#Profile-section div.row div:nth-child(2){
+     height:350px;
+     width:450px;
+     background-image: url("tabs.png");
+     /* background-position: center;   */
+     background-size:contain;
+     background-repeat: no-repeat;
+     
+    
+}
+#Education {
+    width:100%;
+}
+
+#Education img{
+    width:50% !important;
+    margin:10px auto;
+}
+
+#Contact .btn{
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+
+.carousel-indicators{
+    position: absolute;
+top:100%;
+
+}
+
+
+section{
+    padding :5%;
+}
+
+.card{
+    display:inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    
+    
+    }
+
+#Skills img{
+    height:200;
+    width:200;
+
+}
+
+@media(max-width:500px){
+    a.navbar-brand{
+        width:50%;
+        font-size: 18px !important;
+    }
+    .my-photo-div {
+     
+
+    }
+}
